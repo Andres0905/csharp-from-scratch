@@ -48,6 +48,8 @@ interface IFigura
     public double Perimetro();
 }
 
+
+
 class Circulo : IFigura, IExtraCalculations
 {
     public double Radio { get; set; }
